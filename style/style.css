@@ -52,11 +52,11 @@ h1 {
     height: 97%;
     border: none;
     object-fit: cover;
-    mask-image: url('../svg/black_frame_mask.svg');
+    mask-image: url('./svg/black_frame_mask.svg');
     mask-size: contain;
     mask-position: center;
     mask-repeat: no-repeat;
-    -webkit-mask-image: url('../svg/black_frame_mask.svg');
+    -webkit-mask-image: url('./svg/black_frame_mask.svg');
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat; 
