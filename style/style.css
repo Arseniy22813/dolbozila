@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+main {
+    display: block;
+    width: 420px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.dolbozilla_name {
+    display: block;
+    width: 420px;
+    height: auto;
+    margin: 35px auto 15px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.reel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+    width: 100%;
+    margin: auto; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.video {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 97%;
+    border: none;
+    object-fit: cover;
+    mask-image: url('/svg/black_frame_mask.svg');
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url('/svg/black_frame_mask.svg');
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat; 
+}
+
+.frame-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/svg/frame.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    pointer-events: none; 
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 15px auto;
+}
+
+.social {
+    display: block;
+    width: 420px;
+    height: fit-content;
+    margin: auto;
+}
+
+.social-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 5px;
+}
+
+
+.mail {
+    width: 100%;
+    max-width: 40px; 
+    height: auto;
+    margin: 5px;
+}
