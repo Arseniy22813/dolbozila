@@ -13,7 +13,8 @@ body {
 
 main {
     display: block;
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     margin: auto;
     padding: 0 10px;
 }
@@ -24,7 +25,8 @@ h1 {
 
 .dolbozilla_name {
     display: block;
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     height: auto;
     margin: 35px auto 15px;
     padding-right: 12px;
@@ -36,8 +38,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 420px;
     width: 100%;
+    max-width: 420px;
     margin: auto; 
     margin-bottom: 20px;
     overflow: hidden;
