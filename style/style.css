@@ -3,45 +3,53 @@
 }
 
 html, body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
     overflow-x: hidden;
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
-    min-height: 100vh;
-    text-align: center;
-    background-image: url('../svg/background_v001.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    text-align: center;
+    background-image: url('../svg/background_v001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 header {
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 h1 {
-    margin: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 0;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    gap: 1vh;
     width: 100%;
-    max-width: 420px;
+    min-height: 100vh;
     margin: 0 auto;
+    padding: 4vh 6vw 4vh;
 }
 
 
@@ -50,46 +58,39 @@ main {
     width: 100%;
     max-width: 420px;
     height: auto;
-    margin: 35px auto 15px;
-    padding: 0 12px;
-    margin: 20px;
+    margin: 0 auto;
 }
 
 .vhs,
 .donate,
 .links {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .vhs-logo {
     display: block;
-    width: 100%;
-    max-width: 420px;
+    width: 80vw;
+    max-width: 360px;
     height: auto;
-    margin: 0 auto;
-    transform: rotate(-18deg);
+    margin: 20px auto 0;
+    transform: translateX(6%) rotate(-18deg);
     transform-origin: center center;
 }
 
-.vhs-logo,
 .donate-logo {
     display: block;
-    width: 100%;
-    max-width: 420px;
-    height: auto;
+    width: 70vw;
+    max-width: 360px;
+    height: auto;            
     margin: 0 auto;
 }
 
-.donate-logo {
-    margin-top: -20px;
-    max-width: 480px; 
-}
-
 .links {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 3vw;
     margin: 0 auto;
 }
 
@@ -97,31 +98,16 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: auto;             
     height: auto;
-    margin: 0 auto;
-    margin-top: -40px;
+    margin: 0;
 }
 
 .social-image {
     display: block;
-    width: 100%;
-    max-width: 400px;
+    width: 21vw;
+    max-width: 120px;
     height: auto;
-    margin: 0 auto 5px;
-}
-
-
-@media (max-width: 480px) {
-    main {
-        padding: 0 12px;
-    }
-    .dolbozilla_name {
-        margin-top: 20px;
-    }
-    .vhs-logo,
-    .donate-logo,
-    .social-image {
-        max-width: 100%;
-    }
+    margin: 0;
+    object-fit: contain;
 }
