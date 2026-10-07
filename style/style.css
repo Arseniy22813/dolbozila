@@ -86,12 +86,16 @@ main {
     max-width: 360px;
     height: auto;            
     margin: 0 auto;
+    transform: translateX(4%);
+    transform-origin: center center;
 }
 
 .links {
     flex-direction: row;
     gap: 3vw;
     margin: 0 auto;
+    transform: translateX(2%);
+    transform-origin: center center;
 }
 
 .social {
