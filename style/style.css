@@ -53,15 +53,16 @@ main {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 
 .dolbozilla_name {
     display: block;
-    width: 100%;
-    max-width: 420px;
+    width: 80vw;
+    max-width: 360px;
     height: auto;
-    margin: 20px auto 0;
+    margin: 40px auto 5px;
 }
 
 .vhs,
@@ -75,11 +76,11 @@ main {
 
 .vhs-logo {
     display: block;
-    width: 70vw;
-    max-width: 400px;
+    width: 80vw;
+    max-width: 360px;
     height: auto;
-    margin: 20px auto 0;
-    transform: translateX(4%);
+    margin: 0 auto;
+    transform: translateX(1%);
     transform-origin: center center;
 }
 
@@ -89,8 +90,6 @@ main {
     max-width: 360px;
     height: auto;            
     margin: 0 auto 15px;
-    transform: translateX(2%);
-    transform-origin: center center;
 }
 
 .links {
