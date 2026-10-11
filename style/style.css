@@ -53,7 +53,6 @@ main {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 4vh 6vw 4vh;
 }
 
 
@@ -77,10 +76,10 @@ main {
 .vhs-logo {
     display: block;
     width: 70vw;
-    max-width: 360px;
+    max-width: 400px;
     height: auto;
     margin: 20px auto 0;
-    transform: translateX(4%) rotate(-18deg);
+    transform: translateX(4%);
     transform-origin: center center;
 }
 
@@ -112,7 +111,7 @@ main {
 .social-image {
     display: block;
     width: 21vw;
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
     margin: 0;
     object-fit: contain;
