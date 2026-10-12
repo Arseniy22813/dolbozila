@@ -29,7 +29,10 @@ body {
 body::before {
     content: "";
     position: fixed;
-    inset: 0;
+    top: -5vh;
+    left: 0;
+    right: 0;
+    bottom: -5vh;
     background-image: url('../svg/background_v001.jpg');
     background-repeat: no-repeat;
     background-position: center center;
