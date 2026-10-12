@@ -24,11 +24,18 @@ body {
     height: 100dvh;
     overflow: hidden; 
     text-align: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url('../svg/background_v001.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    z-index: -1;
+    pointer-events: none;
 }
 
 header {
@@ -89,7 +96,7 @@ main {
     width: 70vw;
     max-width: 360px;
     height: auto;            
-    margin: 0 auto 15px;
+    margin: 20px auto 15px;
 }
 
 .links {
