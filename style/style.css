@@ -24,6 +24,7 @@ body {
     height: 100dvh;
     overflow: hidden; 
     text-align: center;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 body::before {
