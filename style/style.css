@@ -10,7 +10,13 @@ html, body {
 }
 
 html {
-    background-color: #0a0a0a;
+    background-color: #0a0a0a;                          
+    background-image: url('../svg/background_v001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;              
+    min-height: 100%;
 }
 
 body {
@@ -24,22 +30,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     text-align: center;
-    position: relative;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: -10vh;
-    left: 0;
-    right: 0;
-    bottom: -10vh;
-    background-image: url('../svg/background_v001.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    z-index: -1;
-    pointer-events: none;
+    background: transparent;
 }
 
 header {
