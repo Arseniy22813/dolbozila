@@ -63,7 +63,6 @@ main {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    padding-top: 20px;
 }
 
 
@@ -72,7 +71,7 @@ main {
     width: 80vw;
     max-width: 360px;
     height: auto;
-    margin: 40px auto 5px;
+    margin: 40px auto 0;
 }
 
 .vhs,
@@ -89,7 +88,7 @@ main {
     width: 80vw;
     max-width: 360px;
     height: auto;
-    margin: 0 auto;
+    margin: -10px auto auto;
     transform: translateX(1%);
     transform-origin: center center;
 }
