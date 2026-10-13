@@ -8,10 +8,6 @@ html, body {
     padding: 0;
 }
 
-html {
-    background-color: #0a0a0a;
-}
-
 body {
     display: flex;
     flex-direction: column;
