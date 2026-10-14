@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 110vh;
-    min-height: 110dvh;
+    min-height: 130vh;
+    min-height: 130dvh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
