@@ -101,7 +101,7 @@ main {
 
 .links {
     flex-direction: row;
-    gap: 3vw;
+    gap: 15px;
     margin: 0 auto;
 }
 
